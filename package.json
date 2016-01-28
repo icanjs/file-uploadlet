@@ -1,6 +1,6 @@
 {
   "name": "file-uploadlet",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A UI-less Component that helps automate the tedious stuff associated with doing file uploads.  BYO-UI.",
   "main": "src/file-uploadlet.js",
   "scripts": {
