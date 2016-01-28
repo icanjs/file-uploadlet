@@ -202,7 +202,7 @@ let VM = can.Map.extend({
   stopAll(){
     let files = this.attr('files');
 
-    files.forEach(file => {
+    files.each(file => {
       this.stop(file);
     });
   },
@@ -224,9 +224,8 @@ let VM = can.Map.extend({
   removeAll(){
     let files = this.attr('files');
 
-    files.forEach(file => {
-      this.remove(file);
-    });
+    this.stopAll();
+    files.replace([]);
   },
 
   /**
